@@ -18,10 +18,45 @@
       </header>
       
       <main class="hotel-main-content">
-         <form class="hotel-search">
-             <fieldset></fieldset>
-             <fieldset></fieldset>
-             <fieldset></fieldset>
+         <form class="hotel-search" method="get">
+             <fieldset>
+               <legend>Инфраструктура:</legend>
+               <ul>
+                 <li class="filter-option">
+                   <input id="pool" type="checkbox" name="" class="visually-hidden" checked>
+                   <label for="pool">Бассейн</label>
+                 </li>
+                 <li class="filter-option">
+                   <input id="parking" type="checkbox" name="" class="visually-hidden">
+                   <label for="parking">Парковка</label>
+                 </li>
+                 <li class="filter-option">
+                   <input id="wi-fi" type="checkbox" name="" class="visually-hidden">
+                   <label for="wi-fi">Wi-fi</label>
+                 </li>
+               </ul>
+             </fieldset>
+             <fieldset>
+               <legend>Тип жилья:</legend>
+               <ul>
+                 <li class="filter-option">
+                   <input id="hotel" type="checkbox" name="" class="visually-hidden" checked>
+                   <label for="hotel">Гостиница</label>
+                 </li>
+                 <li class="filter-option">
+                   <input id="motel" type="checkbox" name="" class="visually-hidden" checked>
+                   <label for="motel">Мотель</label>
+                 </li>
+                 <li class="filter-option">
+                   <input id="apartments" type="checkbox" name="" class="visually-hidden" checked>
+                   <label for="apartments">Апартаменты</label>
+                 </li>
+               </ul>
+             </fieldset>
+             <fieldset>
+               <legend>Стоимость в сутки(Р):</legend>
+               <button type="submit">Показать</button>
+             </fieldset>
          </form> 
          <section class="found-hotels">
              <h3>Найдено:3</h3>
