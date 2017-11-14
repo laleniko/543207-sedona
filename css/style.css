@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.main-header {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+    
+    background-color: #ffffff;
+}
+
+.header-navigation {
+    list-style: none;
+}
+
+.header-navigation a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.header-navigation a:hover {
+    color: #81b3d2;
+}
+
+.header-navigation a:active {
+    color: #766357;
+}
+
+.main-slogan {
+    background-color: #81b3d2;
+    background-image: url(../img/welcome-to-sedona-background.jpg);
+    background-repeat: no-repeat;
+}
+
+.sedona-privilege h2 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sedona-privelege h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sedona-privelege p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.first-privilege .color-change {
+    color: #ffffff;
+}
+
+.second-privilege .color-change {
+    color: #ffffff;
+}
+
+.sedona-privilege-header {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.first-privilege-description {
+    text-align: center;
+    background-color: #81b3d2;
+}
+
+.first-privilege-background {
+    background-color: #8b7468;
+    background-image: url(../img/first-privilege-background.jpg);
+}
+
+.sedona-privilege-life {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.life-house::before {
+    content: url(../img/icon-1.svg);
+}
+
+.life-food::before {
+    content: url(../img/icon-2.svg);
+}
+
+.life-souvenirs::before {
+    content: url(../img/icon-3.svg);
+}
+
+.second-privilege-background {
+    background-color: #967360;
+    background-image: url(../img/second-privilege-background.jpg);
+}
+
+.second-privilege-description {
+    background-color: #81b3d2;
+    text-align: center;
+}
+
+.last-privilege {
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.hotel-search-header {
+    text-align: center;
+}
+
+.hotel-search-header span {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #000000;
+}
+
+.hotel-serch-header p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #333333;
+}
+
+.hotel-search-header button {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #ffffff;
+    
+    background-color: #766357;
+}
+
+.hotel-search-header button:hover {
+    background-color: #604e43;
+}
+
+.hotel-search-header button:active {
+    color: rgba(255,255,255,0.3);
+    
+    background-color: #503e33;
+}
+
+.hotel-search-form label,
+.hotel-serch-form placeholder {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    
+}
+
