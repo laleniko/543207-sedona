@@ -40,6 +40,10 @@ a {
     list-style: none;
 }
 
+.header-navigation .active {
+    color: #766357;
+}
+
 .header-navigation a {
     color: #000000;
     font-weight: bold;
@@ -191,6 +195,14 @@ a {
     border: none;
 }
 
+.hotel-search-form input:hover {
+    background-color: #ebebeb;
+}
+
+.hotel-search-form input:focus {
+    background-color: white;
+}
+
 .button-calendar {
     border: none;
 }
@@ -288,4 +300,122 @@ a {
 
 .htmlacademy-logo:active svg {
     fill: rgba(0,0,0,0.3)
+}
+
+.hotel-search-list {
+    background-color: #546470;
+    background-image: url(../img/welcome-to-sedona-background-blur.jpg);
+    background-position: -300px -600px
+}
+
+.hotel-search-list legend {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+    color: white;
+}
+
+.hotel-search-list fieldset {
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: white;
+}
+
+.hotel-search-list li {
+    list-style: none;
+}
+
+.checkbox {
+    border: none;
+    background-color: rgba(0,0,0,0)
+}
+
+.price-button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.price-button:hover svg {
+    /*Здесь не знаю как увеличить кнопку при наведении */
+}
+
+.show-button {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: white;
+    
+    background-color: rgba(0,0,0,0);
+    border-color: white;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+.show-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.found-hotels h3 {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    color: black;
+}
+
+.found-hotels li {
+    list-style: none;
+}
+
+.found-hotels-sort {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    color: black;
+}
+
+.found-hotels a {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    color: rgba(0,0,0,0.3);
+    
+    border-bottom: 1px dotted #81b3d2; 
+}
+
+.found-hotels a:hover {
+    color: #81b3d2;
+}
+
+.found-hotels a:active {
+    color: black;
+    border: none;
+}
+
+.found-hotels .found-active {
+    color: #81b3d2;
+    border: none;
+}
+
+.hotel-sorting {
+    border: none;
+    background-color: rgba(0,0,0,0)
+}
+
+.hotel-sorting svg {
+    fill: #cacaca;
+}
+
+.hotel-sorting svg:hover {
+    fill: black;
+}
+
+.hotel-sorting svg:active {
+    fill: #81b3d2;
+}
+
+.hotel-sorting-active svg {
+    fill: #81b3d2;
 }
