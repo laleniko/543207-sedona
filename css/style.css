@@ -50,7 +50,7 @@ a {
 }
 
 .header-navigation a:active {
-    color: #766357;
+    color: rgba(0,0,0,0.3);
 }
 
 .main-slogan {
@@ -137,6 +137,7 @@ a {
 
 .hotel-search-header {
     text-align: center;
+    background-color: white;
 }
 
 .hotel-search-header span {
@@ -158,6 +159,8 @@ a {
     font-weight: bold;
     line-height: 26px;
     color: #ffffff;
+    border: none;
+    border-radius: 0;
     
     background-color: #766357;
 }
@@ -172,11 +175,117 @@ a {
     background-color: #503e33;
 }
 
-.hotel-search-form label,
-.hotel-serch-form placeholder {
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 26px;
-    
+.hotel-search-form {
+    background-color: #ffffff;
 }
 
+.hotel-search-form,
+.hotel-search-form input {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;   
+}
+
+.hotel-search-form input {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.button-calendar {
+    border: none;
+}
+
+.button-calendar:hover svg {
+    fill: #000000;
+}
+
+.button-calendar:active svg {
+    fill: #81b3d2;
+}
+
+.button-minus {
+    border: none;
+    color: #a9a9a9;
+}
+
+.button-plus {
+    border: none;
+    color: #a9a9a9;
+}
+
+.button-minus:hover {
+    color: #000000;
+}
+
+.button-minus:active {
+    color: #81b3d2;
+}
+
+.button-plus:hover {
+    color: #000000;
+}
+
+.button-plus:active {
+    color: #81b3d2;
+}
+
+.button-search {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    
+    background-color: #81b3d2;
+}
+
+.button-search:hover {
+    background-color: #669ec0;
+}
+
+.button-search:active {
+    background-color: #5496bd;
+    color: rgba(255,255,255,0.3)
+}
+
+.main-footer {
+    background-color: rgba(255,255,255,0.9)
+}
+
+.main-footer b {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.main-footer li {
+    list-style: none;
+    background-color: #81b3d2;
+}
+
+.main-footer li:hover {
+    background-color: #669ec0;
+}
+
+.main-footer li:active {
+    background-color: #5496bd;
+}
+
+.main-footer li:active svg{
+    fill: rgba(255,255,255,0.3);
+}
+
+.main-footer p {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.htmlacademy-logo:hover svg {
+    fill: #81b3d2;
+}
+
+.htmlacademy-logo:active svg {
+    fill: rgba(0,0,0,0.3)
+}
