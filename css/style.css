@@ -376,6 +376,10 @@ a {
     color: black;
 }
 
+.found-hotels {
+    background-color: white;
+}
+
 .found-hotels a {
     font-size: 12px;
     font-weight: normal;
@@ -419,3 +423,77 @@ a {
 .hotel-sorting-active svg {
     fill: #81b3d2;
 }
+
+.hotels-list {
+    background-color: white;
+}
+
+.hotels-list h3 {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    color: black;
+}
+
+.hotels-list h3:hover {
+    color: #81b3d2;
+}
+
+.hotels-list h3:active {
+    color: rgba(0,0,0,0.3)
+}
+
+.hotels-list p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #333333;
+}
+
+.hotels-list .hotel-information {
+    background-color: #81b3d2;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    color: white;
+}
+
+.hotels-list .hotel-information:hover {
+    background-color: #669ec0;    
+}
+
+.hotels-list .hotel-information:active {
+    background-color: #5496bd;
+    color: rgba(255,255,255,0.3);
+}
+
+.hotels-list button {
+    background-color: #766357;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    color: white; 
+    
+    border: none;
+    border-radius: 0;
+}
+
+.hotels-list button:hover{
+    background-color: #604e43;
+}
+
+.hotels-list button:active{
+    background-color: #503e33;
+    color: rgba(255,255,255,0.3); 
+}
+
+.hotels-list .star {
+    background-image: url(../img/star.svg);
+}
+
+.hotels-list .rating {
+    color: #666666;
+    background-color: #f2f2f2;
+    
+}
+
