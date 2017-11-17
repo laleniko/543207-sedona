@@ -164,6 +164,7 @@ color: #81b3d2;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+    text-transform: uppercase;
     color: #ffffff;
     border: none;
     border-radius: 0;
@@ -191,7 +192,8 @@ color: #81b3d2;
     font-family: inherit;
     font-size: 14px;
     font-weight: bold;
-    line-height: 26px;   
+    line-height: 26px;
+    text-transform: uppercase;   
 }
 
 .hotel-search-form input {
@@ -256,6 +258,7 @@ color: #81b3d2;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+    text-transform: uppercase;
     color: #ffffff;
     border: none;
     border-radius: 0;
@@ -359,6 +362,7 @@ color: #81b3d2;
     line-height: 21px;
     font-weight: normal;
     color: white;
+    text-transform: uppercase;
     
     background-color: rgba(0,0,0,0);
     border-color: white;
@@ -388,10 +392,6 @@ color: #81b3d2;
     font-weight: normal;
     line-height: 18px;
     color: black;
-}
-
-.found-hotels {
-    background-color: white;
 }
 
 .found-hotels a {
@@ -437,6 +437,7 @@ color: #81b3d2;
 
 .hotel-sorting-active svg {
     fill: #81b3d2;
+<<<<<<< HEAD
 }
 
 .hotels-list {
@@ -488,6 +489,7 @@ color: #81b3d2;
     font-size: 14px;
     font-weight: bold;
     line-height: 21px;
+    text-transform: uppercase;
     color: white; 
     
     border: none;
@@ -513,3 +515,6 @@ color: #81b3d2;
     
 }
 
+=======
+}
+>>>>>>> parent of 665043a... Стилизация отелей
