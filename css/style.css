@@ -16,6 +16,15 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+    box-shadow: 
+        -1px 0 10px 0 #dbdbdb,
+        1px 0 10px 0 #dbdbdb;       
+}
+
 .visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -34,10 +43,23 @@ a {
     color: #000000;
     
     background-color: #ffffff;
+    
+    position: relative;
+    
+}
+
+.main-header-logo {
+    position: absolute;
+    left: 44.25%;
 }
 
 .header-navigation {
     list-style: none;
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
 }
 
 .header-navigation .active {
@@ -62,6 +84,16 @@ color: #81b3d2;
     background-color: #81b3d2;
     background-image: url(../img/welcome-to-sedona-background.jpg), url(../img/welcome-to-sedona-mask.png);
     background-repeat: no-repeat;
+    
+    display: flex;
+}
+
+.main-slogan img {
+    margin-top: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
 }
 
 .sedona-privilege h2 {
