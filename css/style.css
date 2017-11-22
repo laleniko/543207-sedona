@@ -17,7 +17,8 @@ a {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    min-width: 768px;
     margin: 0 auto;
     
     box-shadow: 
@@ -50,16 +51,32 @@ a {
 
 .main-header-logo {
     position: absolute;
-    left: 44.25%;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .header-navigation {
     list-style: none;
     
     display: flex;
-    justify-content: space-around;
     padding: 0;
     margin: 0;
+}
+
+.header-navigation li {
+    flex-basis: 239px;
+    
+    text-align: center;
+}
+
+.header-navigation-photo {
+   margin-right: auto; 
+}
+
+.header-navigation-map {
+    margin-left: auto;
+    
 }
 
 .header-navigation .active {
@@ -82,8 +99,10 @@ color: #81b3d2;
 
 .main-slogan {
     background-color: #81b3d2;
-    background-image: url(../img/welcome-to-sedona-background.jpg), url(../img/welcome-to-sedona-mask.png);
+    background-image: url(../img/welcome-to-sedona-mask.png), url(../img/welcome-to-sedona-background.jpg);
     background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: bottom, 100%;
     
     display: flex;
 }
@@ -130,19 +149,37 @@ color: #81b3d2;
     background-color: #ffffff;
 }
 
+.first-privilege {
+    display: flex;
+    
+    min-height: 256px;
+}
+
 .first-privilege-description {
     text-align: center;
     background-color: #81b3d2;
+    
+    flex-basis: 33.333%;
 }
 
 .first-privilege-background {
     background-color: #8b7468;
     background-image: url(../img/first-privilege-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    flex-basis: 66.666%;
 }
 
 .sedona-privilege-life {
     background-color: #ffffff;
     text-align: center;
+    
+    display: flex;
+}
+
+.column-width {
+    flex-basis: 33.333%
 }
 
 .life-house::before {
@@ -157,19 +194,32 @@ color: #81b3d2;
     content: url(../img/icon-3.svg);
 }
 
+.second-privilege {
+    display: flex;
+    min-height: 256px;
+}
+
 .second-privilege-background {
     background-color: #967360;
     background-image: url(../img/second-privilege-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    flex-basis: 66.666%;
 }
 
 .second-privilege-description {
     background-color: #81b3d2;
     text-align: center;
+    
+    flex-basis: 33.333%;
 }
 
 .last-privilege {
     background-color: #eeeeee;
     text-align: center;
+    
+    display: flex;
 }
 
 .hotel-search-header {
@@ -307,7 +357,9 @@ color: #81b3d2;
 }
 
 .main-footer {
-    background-color: rgba(255,255,255,0.9)
+    background-color: rgba(255,255,255,0.9);
+    
+    display: flex;
 }
 
 .main-footer b {
@@ -338,6 +390,10 @@ color: #81b3d2;
     line-height: 26px;
     font-weight: normal;
     color: #000;
+}
+
+.social-buttons li {
+    display: inline-block;
 }
 
 .htmlacademy-logo:hover svg {
