@@ -65,18 +65,25 @@ a {
 }
 
 .header-navigation li {
-    flex-basis: 239px;
-    
-    text-align: center;
+    flex-basis: 20%;
+}
+
+.header-navigation-information,
+.header-navigation-photo {
+    text-align: ;
+}
+
+.header-navigation-map,
+.header-navigation-hotels {
+    text-align: right;
 }
 
 .header-navigation-photo {
-   margin-right: auto; 
+    margin-right: auto;
 }
 
 .header-navigation-map {
     margin-left: auto;
-    
 }
 
 .header-navigation .active {
@@ -407,7 +414,9 @@ color: #81b3d2;
 .hotel-search-list {
     background-color: #546470;
     background-image: url(../img/welcome-to-sedona-background-blur.jpg);
-    background-position: -300px -600px
+    background-position: -300px -600px;
+    
+    display: flex;
 }
 
 .hotel-search-list legend {
@@ -427,6 +436,10 @@ color: #81b3d2;
 
 .hotel-search-list li {
     list-style: none;
+}
+
+.cost-per-day {
+    margin-left: auto;
 }
 
 .checkbox {
@@ -472,6 +485,8 @@ color: #81b3d2;
 
 .found-hotels li {
     list-style: none;
+    
+    display: inline-block;
 }
 
 .found-hotels-sort {
@@ -483,6 +498,8 @@ color: #81b3d2;
 
 .found-hotels {
     background-color: white;
+    
+    display: flex;
 }
 
 .found-hotels a {
@@ -506,6 +523,10 @@ color: #81b3d2;
 .found-hotels .found-active {
     color: #81b3d2;
     border: none;
+}
+
+.hotel-sorting-buttons {
+    margin-left: auto;
 }
 
 .hotel-sorting {
