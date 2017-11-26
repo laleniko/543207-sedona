@@ -62,15 +62,29 @@ a {
     display: flex;
     padding: 0;
     margin: 0;
+    
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .header-navigation li {
     width: 20%;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-navigation-photo {
+    padding-left: 3%;
+}
+
+.header-navigation-map {
+   padding-right: 3%; 
 }
 
 .header-navigation-information,
 .header-navigation-photo {
-    text-align: ;
+    text-align: left;
 }
 
 .header-navigation-map,
@@ -160,6 +174,11 @@ color: #81b3d2;
 .sedona-privilege-header {
     text-align: center;
     background-color: #ffffff;
+}
+
+.sedona-privilege-header-container {
+    width: 490px;
+    margin: 0 auto;
 }
 
 .first-privilege {
