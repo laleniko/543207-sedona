@@ -424,16 +424,32 @@ color: #81b3d2;
     height: 395px;
     left: 50%;
     margin-left: -284px;
-    padding-top: 55px;
-    padding-left: 55px;
+    padding: 55px;
    
     position: absolute;
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: column;  
 }
 
 .hotel-search-form p {
     margin: 0;
     
-    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: auto;
+}
+
+.hotel-search-form span {
+    display: block;
+    
+    position: relative;
+}
+
+.hotel-search-form label {
+    align-self: center;
 }
 
 .hotel-search-form,
@@ -460,14 +476,21 @@ color: #81b3d2;
 
 .hotel-search-form > p:first-of-type input,
 .hotel-search-form > p:nth-of-type(2) input {
+    box-sizing: border-box;
     width: 346px;
     height: 38px;
+    
     padding-left: 12px;
 }
 
 .button-calendar {
     background-color: transparent;
     border: none;
+    
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -11px;
 }
 
 .button-calendar:hover svg {
@@ -481,6 +504,8 @@ color: #81b3d2;
 .age-container {
     display: flex;
     justify-content: space-between;
+    
+    margin-bottom: auto;
 }
 
 .age-container input {
@@ -489,7 +514,22 @@ color: #81b3d2;
     text-align: center;
 }
 .age-container p {
+    display: flex;
     justify-content: space-between;
+    
+    width: 227px;
+}
+
+.age-container p:nth-child(1) {
+    width: 227px; 
+}
+
+.age-container p:nth-child(2) {
+    width: 180px;
+}
+
+.age-container span {
+    position: relative;
 }
 
 .button-minus {
@@ -497,6 +537,12 @@ color: #81b3d2;
     background-color: transparent;
     border: none;
     color: #a9a9a9;
+    font-size: 50px;
+    line-height: 0;
+    
+    position: absolute;
+    top: 40%;
+    left: 2px;
 }
 
 .button-plus {
@@ -504,6 +550,12 @@ color: #81b3d2;
     background-color: transparent;
     border: none;
     color: #a9a9a9;
+    font-size: 30px;
+    line-height: 0;
+    
+    position: absolute;
+    top: 50%;
+    right: 5px;
 }
 
 .button-minus:hover {
@@ -535,6 +587,10 @@ color: #81b3d2;
     background-color: #81b3d2;
     
     width: 458px;
+    height: 58px;
+    
+    margin-top: auto;
+    
 }
 
 .button-search:hover {
@@ -548,19 +604,39 @@ color: #81b3d2;
 
 .main-footer {
     background-color: rgba(255,255,255,0.9);
-    
+    width: 100%;
+    min-height: 120px;
     display: flex;
+    justify-content: space-around;
+}
+
+section.main-footer {
+    position: absolute;
+    bottom: 5px;
+}
+
+.main-footer-container {
+    position: relative;
 }
 
 .main-footer b {
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
+    
+    padding-top: 45px;
+    padding-left: 16px;
+    margin: 0;
 }
 
 .main-footer li {
     list-style: none;
     background-color: #81b3d2;
+    
+    width: 46px;
+    height: 48px;
+    vertical-align: bottom;
+    position: relative;
 }
 
 .main-footer li:hover {
@@ -582,12 +658,36 @@ color: #81b3d2;
     color: #000;
 }
 
+.social-buttons {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    
+    margin-top: 39px;
+    margin-left: 26px;
+}
+
 .social-buttons li {
     display: inline-block;
+    text-align: center;
+    
+    margin-left: 6px;
+}
+
+.social-buttons svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .htmlacademy-title {
     display: flex;
+    align-items: center;
+}
+
+.htmlacademy-title p {
+    margin-right: 9px;
 }
 
 .htmlacademy-logo:hover svg {
@@ -603,7 +703,18 @@ color: #81b3d2;
     background-image: url(../img/welcome-to-sedona-background-blur.jpg);
     background-position: -300px -600px;
     
+    min-height: 217px;
+    
     display: flex;
+}
+
+.hotel-search-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hotel-search-list button {
+    padding: 0;
 }
 
 .hotel-search-list legend {
@@ -611,6 +722,8 @@ color: #81b3d2;
     line-height: 21px;
     font-weight: bold;
     color: white;
+    
+    padding: 29px 0;
 }
 
 .hotel-search-list fieldset {
@@ -625,8 +738,33 @@ color: #81b3d2;
     list-style: none;
 }
 
+.infrastructure {
+    width: 141px;
+    padding: 0;
+    margin: 0;
+    margin-left: 5.916%;
+    
+    flex-shrink: 0;
+}
+
+.type-of-building {
+    width: 138px; 
+    padding: 0;
+    margin: 0;
+    margin-left: 9.583%;
+    
+    flex-shrink: 0;
+  
+}
+
 .cost-per-day {
+    padding: 0;
+    margin: 0;
+    width: 26.5%;
     margin-left: auto;
+    margin-right: 5.916%;
+    
+    flex-shrink: 0;
 }
 
 .checkbox {
