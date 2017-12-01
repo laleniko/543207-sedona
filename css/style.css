@@ -663,8 +663,8 @@ section.main-footer {
     padding: 0;
     font-size: 0;
     
-    margin-top: 39px;
-    margin-left: 26px;
+    margin-top: 34px;
+    margin-left: 29px;
 }
 
 .social-buttons li {
@@ -684,6 +684,8 @@ section.main-footer {
 .htmlacademy-title {
     display: flex;
     align-items: center;
+    margin-left: 17px;
+    margin-top: 3px;
 }
 
 .htmlacademy-title p {
