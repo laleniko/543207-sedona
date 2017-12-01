@@ -723,7 +723,8 @@ section.main-footer {
     font-weight: bold;
     color: white;
     
-    padding: 29px 0;
+    padding-top: 29px;
+    padding-bottom: 22px;
 }
 
 .hotel-search-list fieldset {
@@ -736,6 +737,7 @@ section.main-footer {
 
 .hotel-search-list li {
     list-style: none;
+    margin-bottom: 18px;
 }
 
 .infrastructure {
@@ -767,33 +769,145 @@ section.main-footer {
     flex-shrink: 0;
 }
 
-.checkbox {
-    border: none;
-    background-color: transparent;
+.filter-option label {
+    display: flex;
+    align-items: center;
 }
 
-.price-button {
-    border: none;
-    background-color: transparent;
-}
-
-.price-button:hover svg {
-    transform: scale(1.1);
-}
-
-.show-button {
-    font-family: inherit;
-    font-size: 14px;
-    line-height: 21px;
-    text-transform: uppercase;
-    font-weight: normal;
-    color: white;
+.filter-option input[type="checkbox"] + span {
+    width: 23px;
+    height: 27px;
+    display: block;
     
-    background-color: rgba(0,0,0,0);
-    border-color: white;
-    border-width: 2px;
-    border-radius: 0;
-    border-style: solid;
+    background-image: url(../img/checkbox-off.svg);
+    background-repeat: no-repeat;
+}
+
+.filter-option input[type="checkbox"]:checked + span {
+    background-image: url(../img/checkbox-on.svg);
+}
+
+.filter-option span {
+    margin-right: 18px;
+}
+
+.price-controls {
+  position: relative;
+  
+  height: 34px;
+  margin-bottom: 20px;
+  display: flex;
+
+  font-size: 0;
+
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.cost-per-day legend {
+    padding-bottom: 7px;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 2px;
+  height: 22px;
+
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+  text-align: center;
+
+  cursor: pointer;
+  
+  margin: 0 auto;
+}
+
+.price-controls .min-price {
+  width: 55px; 
+  margin-left: 20%;
+}
+
+.price-controls .max-price {
+  width: 55px;
+}
+
+.price-controls input {
+  width: 30px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+}
+
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.range-toggle:hover svg {
+  transform: scale(1.1);
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.cost-per-day .show-button {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+    
+    
 }
 
 .show-button:hover {
@@ -806,12 +920,30 @@ section.main-footer {
     font-weight: bold;
     line-height: 26px;
     color: black;
+    
+    margin: 0;
+    margin-right: 56px;
+}
+
+.found-hotels-left {
+    display: flex;
+    margin-left: 5.83%;
+    margin-right: auto;
+    
+    align-items: flex-end;
+}
+
+.found-hotels-left ul{
+    display: flex;
+    justify-content: space-between;
+    width: 353px;
+    
+    margin: 0;
+    padding: 0;
 }
 
 .found-hotels li {
     list-style: none;
-    
-    display: inline-block;
 }
 
 .found-hotels-sort {
@@ -825,6 +957,8 @@ section.main-footer {
     background-color: white;
     
     display: flex;
+    padding: 31px 0;
+    padding-bottom: 29px;
 }
 
 .found-hotels a {
@@ -852,11 +986,15 @@ section.main-footer {
 
 .hotel-sorting-buttons {
     margin-left: auto;
+    margin-right: 5.25%;
+    padding-top: 3px;
 }
 
 .hotel-sorting {
     border: none;
-    background-color: rgba(0,0,0,0)
+    background-color: rgba(0,0,0,0);
+    
+    padding: 0 6px;
 }
 
 .hotel-sorting svg {
@@ -907,11 +1045,16 @@ section.main-footer {
 }
 
 .hotels-list .hotel-information {
+    display: block;
     background-color: #81b3d2;
     font-size: 14px;
     font-weight: bold;
     line-height: 21px;
     color: white;
+    
+    padding: 3px 17px;
+    margin-right: 6px;
+    margin-top: 16px;
 }
 
 .hotels-list .hotel-information:hover {
@@ -934,6 +1077,9 @@ section.main-footer {
     
     border: none;
     border-radius: 0;
+    
+    padding: 3px 16px;
+    margin-top: 16px;
 }
 
 .hotels-list button:hover{
@@ -947,19 +1093,61 @@ section.main-footer {
 
 .hotels-list .star {
     background-image: url(../img/star.svg);
+    
+    display: inline-block;
+    width: 18px;
+    height: 17px;   
 }
 
 .hotels-list .rating {
     color: #666666;
     background-color: #f2f2f2;
-    
+    padding: 3px 16px; 
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
 
 .hotel-unit {
     display: flex;
+    padding: 30px 0;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.hotel-unit:first-of-type {
+    border-top: 1px solid #e5e5e5;
+}
+
+.hotel-unit > a {
+    margin-right: 30px;
+    margin-left: 5.83%;
+}
+
+.hotel-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    
+    width: 258px;
+}
+
+.hotel-container p {
+    display: block;
+    width: 110px;
 }
 
 .star-container {
     margin-left: auto;
+    margin-right: 5.25%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hotel-stars {
+    margin-right: 8px;
 }
 
