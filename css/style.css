@@ -177,12 +177,12 @@ color: #81b3d2;
 }
 
 .sedona-privilege-header h2 {
-    padding-top: 62px;
-    padding-bottom: 31px;
+    padding-top: 60px;
+    padding-bottom: 29px;
 }
 
 .sedona-privilege-header p {
-    padding-bottom: 52px;
+    padding-bottom: 53px;
 }
 
 .sedona-privilege-header-container {
@@ -208,7 +208,7 @@ color: #81b3d2;
     margin: 0 auto;
     
     padding-top: 49px;
-    padding-bottom: 27px;
+    padding-bottom: 23px;
 }
 
 .first-privilege-description p {
@@ -235,8 +235,8 @@ color: #81b3d2;
 }
 
 .sedona-privilege-life p {
-    padding-top: 24px;
-    padding-bottom: 83px;
+    padding-top: 22px;
+    padding-bottom: 82px;
     
 }
 
@@ -310,7 +310,7 @@ color: #81b3d2;
     margin: 0 auto;
     
     padding-top: 48px;
-    padding-bottom: 27px;
+    padding-bottom: 23px;
 }
 
 .second-privilege-description p {
@@ -332,13 +332,13 @@ color: #81b3d2;
 .last-privilege h3 {
     width: 120px; 
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 23px;
+    padding-top: 49px;
+    padding-bottom: 22px;
 }
 
 .last-privilege p {
-    padding-top: 24px;
-    padding-bottom: 60px; 
+    padding-top: 21px;
+    padding-bottom: 59px; 
 }
 
 .third-privilege p {
@@ -385,7 +385,7 @@ color: #81b3d2;
     color: #333333;
     
     margin: 0 auto;
-    padding-bottom: 44px;
+    padding-bottom: 46px;
 }
 
 .hotel-search-header button {
@@ -401,7 +401,7 @@ color: #81b3d2;
     background-color: #766357;
     
     width: 568px;
-    padding-top: 33px;
+    padding-top: 31px;
     padding-bottom: 29px;
 }
 
@@ -488,9 +488,9 @@ color: #81b3d2;
     border: none;
     
     position: absolute;
-    right: 0;
+    right: 2px;
     top: 50%;
-    margin-top: -11px;
+    margin-top: -12px;
 }
 
 .button-calendar:hover svg {
@@ -541,8 +541,8 @@ color: #81b3d2;
     line-height: 0;
     
     position: absolute;
-    top: 40%;
-    left: 2px;
+    top: 47%;
+    left: 4px;
 }
 
 .button-plus {
@@ -554,7 +554,7 @@ color: #81b3d2;
     line-height: 0;
     
     position: absolute;
-    top: 50%;
+    top: 55%;
     right: 5px;
 }
 
