@@ -7,6 +7,8 @@ var checkOut = modalWindow.querySelector("#check-out");
 var fullAge = modalWindow.querySelector("#full-age");
 var child  = modalWindow.querySelector("#child");
 
+modalWindow.classList.add("modal-active");
+
 modalButton.addEventListener("click", function (evt) {
    if (modalWindow.classList.contains("modal-active")) {
     evt.preventDefault();
