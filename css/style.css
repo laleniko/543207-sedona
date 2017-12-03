@@ -619,6 +619,11 @@ section.main-footer {
     position: relative;
 }
 
+.main-footer-container iframe {
+    position: absolute;
+    top: 0;
+}
+
 .main-footer-container img{
     display: block;
     
