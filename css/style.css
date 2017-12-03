@@ -433,6 +433,10 @@ color: #81b3d2;
     flex-direction: column;  
 }
 
+.modal-active {
+    display: none;
+}
+
 .hotel-search-form p {
     margin: 0;
     
