@@ -868,7 +868,7 @@ section.main-footer {
 .range-controls {
   position: relative;
 
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 .range-controls .scale {
@@ -975,7 +975,7 @@ section.main-footer {
     
     display: flex;
     padding: 31px 0;
-    padding-bottom: 29px;
+    padding-bottom: 28px;
 }
 
 .found-hotels a {
@@ -1070,7 +1070,7 @@ section.main-footer {
     color: white;
     
     padding: 3px 17px;
-    margin-right: 6px;
+    margin-right: 7px;
     margin-top: 16px;
 }
 
@@ -1151,7 +1151,7 @@ section.main-footer {
 
 .hotel-container p {
     display: block;
-    width: 110px;
+    width: 120px;
 }
 
 .star-container {
