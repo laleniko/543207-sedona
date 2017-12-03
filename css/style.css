@@ -37,6 +37,21 @@ a {
     width: 1px;
 }
 
+@keyframes opacity {
+    100% { opacity: 100%; }
+    75%  { opacity: 75%;  }
+    35%  { opacity: 35%;  }
+    0%   { opacity: 0;  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0);}
+
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px);}
+
+  20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
 .main-header {
     font-size: 14px;
     line-height: 26px;
@@ -430,11 +445,20 @@ color: #81b3d2;
     z-index: 1;
     
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    
+    animation-name: opacity;
+    animation-duration: 2s;
 }
 
 .modal-active {
     display: none;
+}
+
+.value-error {
+    animation-name: shake;
+    
+    animation-duration: 1s;
 }
 
 .hotel-search-form p {
