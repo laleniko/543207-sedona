@@ -1268,6 +1268,10 @@ section.main-footer {
 }
 
 .hotel-stars {
-    margin-right: 8px;
+    margin-right: 6px;
+}
+
+.hotel-stars span {
+    margin-right: 2px;
 }
 
