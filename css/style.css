@@ -742,6 +742,19 @@ section.main-footer {
     transform: translate(-50%,-50%);
 }
 
+.social-buttons a:focus svg {
+    box-shadow: 
+        
+        1px 0 0 0 #669ec0,
+        0 1px 0 0 #669ec0,
+        -1px 0 0 0 #669ec0,
+        0 -1px 0 0 #669ec0,
+        3px 0 3px 0 white,
+        0 3px 3px 0 white,
+        -3px 0 3px 0 white,
+        0 -3px 3px 0 white;
+}
+
 .htmlacademy-title {
     display: flex;
     align-items: center;
