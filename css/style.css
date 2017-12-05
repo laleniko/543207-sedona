@@ -351,9 +351,11 @@ color: #81b3d2;
     padding-right: 12.25%;
     padding-top: 21px;
     padding-bottom: 58px;
+    
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 .last-privilege {
