@@ -867,6 +867,19 @@ section.main-footer {
     background-image: url(../img/checkbox-disabled.png);
 }
 
+.filter-option input[type="checkbox"]:focus + label {
+    box-shadow: 
+        
+        1px 0 0 0 #669ec0,
+        0 1px 0 0 #669ec0,
+        -1px 0 0 0 #669ec0,
+        0 -1px 0 0 #669ec0,
+        3px 0 3px 0 white,
+        0 3px 3px 0 white,
+        -3px 0 3px 0 white,
+        0 -3px 3px 0 white;
+}
+
 .filter-option label {
     padding-left: 40px;
 }
