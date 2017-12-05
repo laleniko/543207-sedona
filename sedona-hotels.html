@@ -10,13 +10,13 @@
   <body>
       <div class="container">
           <header class="main-header">
-              <a class="main-header-logo" href="index.html"><img src="img/sedona-menu-logo.png" width="" height="" alt="Лого Седона"></a>
+              <a class="main-header-logo" href="index.html"><img src="img/sedona-menu-logo.png" width="138" height="70" alt="Лого Седона"></a>
               <nav class="main-header-navigation">
                   <ul class="header-navigation">
                        <li class="header-navigation-information"><a href="#">Информация</a></li>
                        <li class="header-navigation-photo"><a href="#">Фото и видео</a></li>
                        <li class="header-navigation-map"><a href="#">Карта штата</a></li>
-                       <li class="header-navigation-hotels"><a class="active" href="sedona-hotels.html">Гостиницы</a></li>
+                       <li class="header-navigation-hotels"><a class="active">Гостиницы</a></li>
                   </ul>
               </nav>
           </header>
@@ -27,25 +27,16 @@
                    <legend>Инфраструктура:</legend>
                    <ul>
                      <li class="filter-option">
-                        <label>
-                           <input type="checkbox" name="pool" class="visually-hidden">
-                           <span></span>
-                           Бассейн
-                        </label>
+                        <input id="pool" type="checkbox" name="pool" class="visually-hidden">
+                        <label for="pool"> Бассейн</label>
                      </li>
                      <li class="filter-option">
-                       <label>
-                           <input type="checkbox" name="parking" class="visually-hidden">
-                           <span></span>
-                           Парковка
-                        </label>
+                       <input id="parking" type="checkbox" name="parking" class="visually-hidden">
+                       <label for="parking">Парковка</label>
                      </li>
                      <li class="filter-option">
-                       <label>
-                           <input type="checkbox" name="wi-fi" class="visually-hidden">
-                           <span></span>
-                           Wi-Fi
-                        </label>
+                        <input id="wi-fi" type="checkbox" name="wi-fi" class="visually-hidden">
+                       <label for="wi-fi">Wi-Fi</label>
                      </li>
                    </ul>
                  </fieldset>
@@ -53,25 +44,16 @@
                    <legend>Тип жилья:</legend>
                    <ul>
                      <li class="filter-option">
-                       <label>
-                           <input type="checkbox" name="hotel" class="visually-hidden">
-                           <span></span>
-                           Гостиница
-                        </label>
+                         <input id="hotel" type="checkbox" name="hotel" class="visually-hidden">
+                       <label for="hotel">Гостиница</label>
                      </li>
                      <li class="filter-option">
-                       <label>
-                           <input type="checkbox" name="motel" class="visually-hidden">
-                           <span></span>
-                           Мотель
-                        </label>
+                         <input id="motel" type="checkbox" name="motel" class="visually-hidden">
+                       <label for="motel">Мотель</label>
                      </li>
                      <li class="filter-option">
-                       <label>
-                           <input type="checkbox" name="apartment" class="visually-hidden">
-                           <span></span>
-                           Апартаменты
-                        </label>
+                         <input id="apartment" type="checkbox" name="apartment" class="visually-hidden">
+                       <label for="apartment">Апартаменты</label>
                      </li>
                    </ul>
                  </fieldset>

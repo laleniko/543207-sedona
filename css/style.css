@@ -207,8 +207,6 @@ color: #81b3d2;
 
 .first-privilege {
     display: flex;
-    
-    min-height: 256px;
 }
 
 .first-privilege-description {
@@ -230,6 +228,7 @@ color: #81b3d2;
     padding-left: 15.25%;
     padding-right: 15.25%;
     padding-top: 21px;
+    padding-bottom: 59px;
 }
 
 .first-privilege-background {
@@ -250,7 +249,7 @@ color: #81b3d2;
 }
 
 .sedona-privilege-life p {
-    padding-top: 22px;
+    padding-top: 25px;
     padding-bottom: 82px;
     
 }
@@ -264,7 +263,12 @@ color: #81b3d2;
     
     display: block;
     padding-top: 60px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 75px;
+    height: 72px;
 }
 
 .life-food::before {
@@ -272,7 +276,12 @@ color: #81b3d2;
     
     display: block;
     padding-top: 60px;
-    padding-bottom: 26px;
+    padding-bottom: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 74px;
+    height: 70px;
 }
 
 .life-souvenirs::before {
@@ -280,7 +289,12 @@ color: #81b3d2;
     
     display: block;
     padding-top: 56px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 64px;
+    height: 76px;
 }
 
 .life-house p {
@@ -300,7 +314,6 @@ color: #81b3d2;
 
 .second-privilege {
     display: flex;
-    min-height: 256px;
 }
 
 .second-privilege-background {
@@ -332,6 +345,7 @@ color: #81b3d2;
     padding-left: 12.25%;
     padding-right: 12.25%;
     padding-top: 21px;
+    padding-bottom: 61px;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
@@ -569,7 +583,7 @@ color: #81b3d2;
     line-height: 0;
     
     position: absolute;
-    top: 47%;
+    top: 17px;
     left: 4px;
 }
 
@@ -582,7 +596,7 @@ color: #81b3d2;
     line-height: 0;
     
     position: absolute;
-    top: 55%;
+    top: 20px;
     right: 5px;
 }
 
@@ -645,11 +659,18 @@ section.main-footer {
 
 .main-footer-container {
     position: relative;
+    
+    min-height: 593px;
+    
+    background-image: url(../img/map.jpg);
+    background-size: contain;
 }
 
 .main-footer-container iframe {
     position: absolute;
     top: 0;
+    width: 100%;
+    border: none;
 }
 
 .main-footer-container img{
@@ -707,6 +728,8 @@ section.main-footer {
 
 .social-buttons li {
     display: inline-block;
+    vertical-align: top;
+    
     text-align: center;
     
     margin-left: 6px;
@@ -815,8 +838,7 @@ section.main-footer {
     align-items: center;
 }
 
-.filter-option input[type="checkbox"] + span {
-    width: 27px;
+.filter-option input[type="checkbox"] + label {
     height: 23px;
     display: block;
     
@@ -824,12 +846,16 @@ section.main-footer {
     background-repeat: no-repeat;
 }
 
-.filter-option input[type="checkbox"]:checked + span {
+.filter-option input[type="checkbox"]:checked + label {
     background-image: url(../img/checkbox-on.svg);
 }
 
-.filter-option span {
-    margin-right: 15px;
+.filter-option input[type="checkbox"]:disabled + label {
+    background-image: url(../img/checkbox-disabled.png);
+}
+
+.filter-option label {
+    padding-left: 40px;
 }
 
 .price-controls {
@@ -871,6 +897,10 @@ section.main-footer {
   cursor: pointer;
   
   margin: 0 auto;
+}
+
+.price-controls input {
+    height: 36px;
 }
 
 .price-controls .min-price {
@@ -967,7 +997,7 @@ section.main-footer {
     color: black;
     
     margin: 0;
-    margin-right: 56px;
+    margin-right: 53px;
 }
 
 .found-hotels-left {
@@ -980,15 +1010,20 @@ section.main-footer {
 
 .found-hotels-left ul{
     display: flex;
-    justify-content: space-between;
-    width: 353px;
     
     margin: 0;
     padding: 0;
+    
 }
 
 .found-hotels li {
     list-style: none;
+    
+    margin-right: 32px;
+}
+
+.found-hotels li:first-child {
+    margin-right: 43px;
 }
 
 .found-hotels-sort {
@@ -1056,6 +1091,14 @@ section.main-footer {
 }
 
 .hotel-sorting-active svg {
+    fill: #81b3d2;
+}
+
+.hotel-sorting-active svg:hover {
+    fill: #81b3d2;
+}
+
+.hotel-sorting-active svg:active {
     fill: #81b3d2;
 }
 
@@ -1140,6 +1183,7 @@ section.main-footer {
     background-image: url(../img/star.svg);
     
     display: inline-block;
+    vertical-align: top;
     width: 18px;
     height: 17px;   
 }
@@ -1174,7 +1218,7 @@ section.main-footer {
     align-content: flex-start;
     align-items: flex-start;
     
-    width: 258px;
+    width: 260px;
 }
 
 .hotel-container p {
