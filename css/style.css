@@ -872,6 +872,10 @@ section.main-footer {
     background-image: url(../img/checkbox-disabled.png);
 }
 
+.filter-option input[type="checkbox"]:checked:disabled + label {
+    background-image: url(../img/checkbox-disabled.png);
+}
+
 .filter-option input[type="checkbox"]:focus + label {
     box-shadow: 
         
