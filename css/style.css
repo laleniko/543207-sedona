@@ -575,49 +575,104 @@ a {
 }
 
 .age-container span {
-    position: relative;
+    display: flex;
+}
+
+.age-container input {
+    width: 38px;
+    
+    padding: 0;
 }
 
 .button-minus {
     font-family: inherit;
-    background-color: transparent;
     border: none;
-    color: #a9a9a9;
-    font-size: 50px;
-    line-height: 0;
+    border-radius: 0;
     
+    width: 38px;
+    height: 38px;
+    background-color: #f2f2f2;
+    
+    padding: 0;
+}
+
+.button-minus::after {
+    content: "";
+    width: 12px;
+    height: 3px;
+    
+    background-color: #a9a9a9;
+    
+    display: block;
     position: absolute;
-    top: 17px;
-    left: 4px;
+    
+    left: 14px;
+    
 }
 
 .button-plus {
     font-family: inherit;
-    background-color: transparent;
     border: none;
-    color: #a9a9a9;
-    font-size: 30px;
-    line-height: 0;
+    border-radius: 0;
     
+    width: 38px;
+    height: 38px;
+    background-color: #f2f2f2;
+    
+    padding: 0;
+}
+
+.button-plus::after {
+    content: "";
+    width: 12px;
+    height: 3px;
+    
+    background-color: #a9a9a9;
+    
+    display: block;
     position: absolute;
-    top: 20px;
-    right: 5px;
+    
+    top: 19px;
+    right: 13px;
+    
 }
 
-.button-minus:hover {
-    color: #000000;
+.button-plus::before {
+    content: "";
+    width: 3px;
+    height: 12px;
+    
+    background-color: #a9a9a9;
+    
+    display: block;
+    position: absolute;
+    
+    top: 15px;
+    right: 17px;
 }
 
-.button-minus:active {
-    color: #81b3d2;
+.button-minus:hover::after {
+    background-color: #000000;
 }
 
-.button-plus:hover {
-    color: #000000;
+.button-minus:active::after {
+    background-color: #81b3d2;
 }
 
-.button-plus:active {
-    color: #81b3d2;
+.button-plus:hover::after {
+    background-color: #000000;
+}
+
+.button-plus:hover::before {
+    background-color: #000000;
+}
+
+.button-plus:active::after {
+    background-color: #81b3d2;
+}
+
+.button-plus:active::before {
+    background-color: #81b3d2;
 }
 
 .button-search {
