@@ -624,7 +624,7 @@ a {
 
 .button-plus::after {
     content: "";
-    width: 12px;
+    width: 11px;
     height: 3px;
     
     background-color: #a9a9a9;
@@ -640,7 +640,7 @@ a {
 .button-plus::before {
     content: "";
     width: 3px;
-    height: 12px;
+    height: 11px;
     
     background-color: #a9a9a9;
     
@@ -651,26 +651,14 @@ a {
     right: 17px;
 }
 
-.button-minus:hover::after {
-    background-color: #000000;
-}
-
-.button-minus:active::after {
-    background-color: #81b3d2;
-}
-
-.button-plus:hover::after {
-    background-color: #000000;
-}
-
+.button-minus:hover::after,
+.button-plus:hover::after,
 .button-plus:hover::before {
     background-color: #000000;
 }
 
-.button-plus:active::after {
-    background-color: #81b3d2;
-}
-
+.button-minus:active::after,
+.button-plus:active::after,
 .button-plus:active::before {
     background-color: #81b3d2;
 }
