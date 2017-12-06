@@ -520,8 +520,8 @@ a {
     outline: 2px solid #e5e5e5;
 }
 
-.hotel-search-form > p:first-of-type input,
-.hotel-search-form > p:nth-of-type(2) input {
+.check-in-paragraph input,
+.check-out-paragraph input {
     box-sizing: border-box;
     width: 346px;
     height: 38px;
@@ -745,7 +745,7 @@ section.main-footer {
     margin: 0;
 }
 
-.main-footer li {
+.social-button-item {
     list-style: none;
     background-color: #81b3d2;
     
@@ -755,15 +755,15 @@ section.main-footer {
     position: relative;
 }
 
-.main-footer li:hover {
+.social-button-item:hover {
     background-color: #669ec0;
 }
 
-.main-footer li:active {
+.social-button-item:active {
     background-color: #5496bd;
 }
 
-.main-footer li:active svg{
+.social-button-item:active svg{
     fill: rgba(255,255,255,0.3);
 }
 
@@ -799,7 +799,7 @@ section.main-footer {
     transform: translate(-50%,-50%);
 }
 
-.social-buttons a:focus svg {
+.social-button-link:focus svg {
     box-shadow:
         1px 0 0 0 #669ec0,
         0 1px 0 0 #669ec0,
