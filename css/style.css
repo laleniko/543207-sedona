@@ -38,23 +38,27 @@ a {
 }
 
 @keyframes opacity {
-  0% {
-    height: 0;
-    opacity: 0;
+    0% {
+        height: 0;
+        opacity: 0;
   }
-  100% {
-    height: 398px;
-    opacity: 1;
+    100% {
+        height: 398px;
+        opacity: 1;
   }
 
 }
 
 @keyframes shake {
-  0%, 100% { transform: translateX(0);}
-
-  10%, 30%, 50%, 70%, 90% { transform: translateX(-10px);}
-
-  20%, 40%, 60%, 80% {transform: translateX(10px);}
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(10px);
+    }
 }
 
 .main-header {
@@ -66,7 +70,6 @@ a {
     background-color: #ffffff;
     
     position: relative;
-    
 }
 
 .main-header-logo {
@@ -149,7 +152,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
-
 }
 
 .sedona-privilege h2 {
@@ -387,7 +389,6 @@ a {
 .fifth-privilege p {
     width: 65.5%;
     margin: 0 auto;
-    
 }
 
 .hotel-search {
@@ -635,7 +636,6 @@ a {
     height: 58px;
     
     margin-top: auto;
-    
 }
 
 .button-search:hover {
@@ -678,7 +678,6 @@ section.main-footer {
 
 .main-footer-container img{
     display: block;
-    
 }
 
 .main-footer b {
@@ -747,7 +746,6 @@ section.main-footer {
 
 .social-buttons a:focus svg {
     box-shadow:
-        
         1px 0 0 0 #669ec0,
         0 1px 0 0 #669ec0,
         -1px 0 0 0 #669ec0,
@@ -836,7 +834,6 @@ section.main-footer {
     margin-left: 9.583%;
     
     flex-shrink: 0;
-  
 }
 
 .cost-per-day {
@@ -875,8 +872,7 @@ section.main-footer {
 }
 
 .filter-option input[type="checkbox"]:focus + label {
-    box-shadow: 
-        
+    box-shadow:
         1px 0 0 0 #669ec0,
         0 1px 0 0 #669ec0,
         -1px 0 0 0 #669ec0,
@@ -892,16 +888,16 @@ section.main-footer {
 }
 
 .price-controls {
-  position: relative;
-  
-  height: 34px;
-  margin-bottom: 20px;
-  display: flex;
-
-  font-size: 0;
-
-  border: 2px solid #ffffff;
-  border-radius: 2px;
+    position: relative;
+    
+    height: 34px;
+    margin-bottom: 20px;
+    display: flex;
+    
+    font-size: 0;
+    
+    border: 2px solid #ffffff;
+    border-radius: 2px;
 }
 
 .cost-per-day legend {
@@ -909,27 +905,27 @@ section.main-footer {
 }
 
 .price-controls::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
 
-  width: 2px;
-  height: 22px;
+    width: 2px;
+    height: 22px;
 
-  background: #ffffff;
-  transform: translate(-50%, -50%);
+    background: #ffffff;
+    transform: translate(-50%, -50%);
 }
 
 .price-controls label {
-  font-size: 14px;
-  line-height: 38px;
-  vertical-align: top;
-  text-align: center;
-
-  cursor: pointer;
-  
-  margin: 0 auto;
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+    text-align: center;
+    
+    cursor: pointer;
+    
+    margin: 0 auto;
 }
 
 .price-controls input {
@@ -937,85 +933,83 @@ section.main-footer {
 }
 
 .price-controls .min-price {
-  width: 55px;
-  margin-left: 20%;
+    width: 55px;
+    margin-left: 20%;
 }
 
 .price-controls .max-price {
-  width: 55px;
+    width: 55px;
 }
 
 .price-controls input {
-  width: 30px;
-  margin: 0;
+    width: 30px;
+    margin: 0;
 
-  color: inherit;
-  font: inherit;
+    color: inherit;
+    font: inherit;
 
-  background: none;
-  border: none;
+    background: none;
+    border: none;
 }
 
 .range-controls {
-  position: relative;
+    position: relative;
 
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .range-controls .scale {
-  height: 2px;
+    height: 2px;
 
-  background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
-  width: 80%;
-  height: 2px;
+    width: 80%;
+    height: 2px;
 
-  background: #ffffff;
+    background: #ffffff;
 }
 
 .range-toggle {
-  position: absolute;
-  top: -9px;
-  background-color: transparent;
-  border: none;
+    position: absolute;
+    top: -9px;
+    background-color: transparent;
+    border: none;
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .range-toggle:hover svg {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .range-toggle-min {
-  left: 0;
+    left: 0;
 }
 
 .range-toggle-max {
-  left: 80%;
+    left: 80%;
 }
 
 .cost-per-day .show-button {
-  display: block;
-  margin: 0 auto;
-  padding: 6px 0;
-  width: 136px;
-  margin-left: 27%;
-  margin-right: 27%;
+    display: block;
+    margin: 0 auto;
+    padding: 6px 0;
+    width: 136px;
+    margin-left: 27%;
+    margin-right: 27%;
 
-  font-size: 14px;
-  line-height: 20px;
-  font: inherit;
-  color: #ffffff;
-  text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    font: inherit;
+    color: #ffffff;
+    text-transform: uppercase;
 
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
-  cursor: pointer;
-    
-    
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
 }
 
 .show-button:hover {
@@ -1046,7 +1040,6 @@ section.main-footer {
     
     margin: 0;
     padding: 0;
-    
 }
 
 .found-hotels li {
