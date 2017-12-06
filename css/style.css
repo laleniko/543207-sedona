@@ -864,11 +864,11 @@ section.main-footer {
 }
 
 .filter-option input[type="checkbox"]:disabled + label {
-    background-image: url(../img/checkbox-disabled.png);
+    background-image: url(../img/checkbox-disabled-off.png);
 }
 
 .filter-option input[type="checkbox"]:checked:disabled + label {
-    background-image: url(../img/checkbox-disabled.png);
+    background-image: url(../img/checkbox-disabled-on.png);
 }
 
 .filter-option input[type="checkbox"]:focus + label {
