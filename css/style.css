@@ -21,9 +21,9 @@ a {
     min-width: 768px;
     margin: 0 auto;
     
-    box-shadow: 
+    box-shadow:
         -1px 0 10px 0 #dbdbdb,
-        1px 0 10px 0 #dbdbdb;       
+        1px 0 10px 0 #dbdbdb;
 }
 
 .visually-hidden {
@@ -71,7 +71,7 @@ a {
 
 .main-header-logo {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -98,22 +98,22 @@ a {
 
 .header-navigation li:nth-child(4n+2){
     padding-left: 3%;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .header-navigation li:nth-child(4n+3){
-    padding-right: 3%; 
-    margin-left: auto; 
+    padding-right: 3%;
+    margin-left: auto;
 }
 
 .header-navigation li:nth-child(4n+1),
 .header-navigation li:nth-child(4n+2){
-    text-align: left; 
+    text-align: left;
 }
 
 .header-navigation li:nth-child(4n+3),
 .header-navigation li:nth-child(4n+4){
-    text-align: right;    
+    text-align: right;
 }
 
 .header-navigation .active {
@@ -362,7 +362,7 @@ a {
 }
 
 .last-privilege h3 {
-    width: 120px; 
+    width: 120px;
     margin: 0 auto;
     padding-top: 49px;
     padding-bottom: 22px;
@@ -370,7 +370,7 @@ a {
 
 .last-privilege p {
     padding-top: 21px;
-    padding-bottom: 59px; 
+    padding-bottom: 59px;
 }
 
 .third-privilege p {
@@ -566,7 +566,7 @@ a {
 }
 
 .age-container p:nth-child(1) {
-    width: 227px; 
+    width: 227px;
 }
 
 .age-container p:nth-child(2) {
@@ -746,7 +746,7 @@ section.main-footer {
 }
 
 .social-buttons a:focus svg {
-    box-shadow: 
+    box-shadow:
         
         1px 0 0 0 #669ec0,
         0 1px 0 0 #669ec0,
@@ -830,7 +830,7 @@ section.main-footer {
 }
 
 .type-of-building {
-    width: 138px; 
+    width: 138px;
     padding: 0;
     margin: 0;
     margin-left: 9.583%;
@@ -937,7 +937,7 @@ section.main-footer {
 }
 
 .price-controls .min-price {
-  width: 55px; 
+  width: 55px;
   margin-left: 20%;
 }
 
@@ -1080,7 +1080,7 @@ section.main-footer {
     line-height: 18px;
     color: rgba(0,0,0,0.3);
     
-    border-bottom: 1px dotted #81b3d2; 
+    border-bottom: 1px dotted #81b3d2;
 }
 
 .found-hotels a:hover {
@@ -1179,7 +1179,7 @@ section.main-footer {
 }
 
 .hotels-list .hotel-information:hover {
-    background-color: #669ec0;    
+    background-color: #669ec0;
 }
 
 .hotels-list .hotel-information:active {
@@ -1194,7 +1194,7 @@ section.main-footer {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 21px;
-    color: white; 
+    color: white;
     
     border: none;
     border-radius: 0;
@@ -1209,7 +1209,7 @@ section.main-footer {
 
 .hotels-list button:active{
     background-color: #503e33;
-    color: rgba(255,255,255,0.3); 
+    color: rgba(255,255,255,0.3);
 }
 
 .hotels-list .star {
@@ -1218,13 +1218,13 @@ section.main-footer {
     display: inline-block;
     vertical-align: top;
     width: 18px;
-    height: 17px;   
+    height: 17px;
 }
 
 .hotels-list .rating {
     color: #666666;
     background-color: #f2f2f2;
-    padding: 3px 16px; 
+    padding: 3px 16px;
     margin-right: 8px;
     margin-bottom: 8px;
 }
